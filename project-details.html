@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Project Details - Ian's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html#home">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="index.html#resume">Resume</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+      <li><a href="project-details.html">Project Details</a></li>
+    </ul>
+  </nav>
+
+  <section class="projects">
+    <h2>Project Details</h2>
+
+    <div class="project">
+      <h3>Email-to-Sticky Notes Tool</h3>
+      <p>This custom Python script streamlines internal communication by converting Outlook emails into color-coded sticky notes on Windows desktops. It's designed for use in fast-paced office environments to quickly capture tasks or reminders directly from email content.</p>
+      <ul>
+        <li><strong>Languages:</strong> Python, Powershell</li>
+        <li><strong>Libraries:</strong> pywin32, os, subprocess</li>
+        <li><strong>Tools:</strong> Outlook API, Sticky Notes app integration</li>
+        <li><strong>Features:</strong> Auto-extracts subject, body; auto-formats note content; supports batch conversion</li>
+        <li><strong>Challenge:</strong> Interfacing with Windows Sticky Notes required creative workarounds using Powershell</li>
+      </ul>
+      <a href="https://github.com/jorgeian120/email-sticky-notes" target="_blank">View on GitHub</a>
+      <img src="images/sticky-note.png" alt="Sticky Note App Screenshot">
+    </div>
+
+    <div class="project">
+      <h3>Education App for Kenya</h3>
+      <p>This conceptual mobile app is aimed at bridging educational gaps in rural Kenya. It focuses on delivering lessons, quizzes, and teacher communication in areas with limited internet access.</p>
+      <ul>
+        <li><strong>Platform:</strong> Android (concept only)</li>
+        <li><strong>Languages:</strong> Java (Android), Figma for design</li>
+        <li><strong>Features:</strong> Offline lesson caching, SMS-based assignment submission, lightweight UI</li>
+        <li><strong>Challenge:</strong> Designing for extremely low bandwidth and power usage environments</li>
+      </ul>
+      <img src="images/kenya-app.png" alt="Education App Mockup (Placeholder)">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ian Jorgensen | All rights reserved</p>
+  </footer>
+
+</body>
+</html>
