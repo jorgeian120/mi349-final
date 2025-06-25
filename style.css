@@ -70,14 +70,14 @@ nav a:hover {
 }
 
 section {
-  padding: 4rem 1.5rem;
+  padding: 2rem 1.5rem;
   max-width: 900px;
   margin: auto;
   text-align: center;
 }
 
 .landing {
-  background: #f4faff;
+  background: #0a192f;
 }
 
 .profile-pic {
@@ -96,7 +96,7 @@ section {
 
 .landing p {
   font-size: 1.2rem;
-  color: #444;
+  color: #ffffff;
 }
 
 body::before,
@@ -108,16 +108,6 @@ body::after {
   height: 100%;
   z-index: -1;
   opacity: 0.1;
-}
-
-body::before {
-  left: 0;
-  background: radial-gradient(circle at center, #64ffda 0%, transparent 80%);
-}
-
-body::after {
-  right: 0;
-  background: radial-gradient(circle at center, #64ffda 0%, transparent 80%);
 }
 
 .experience {
