@@ -26,7 +26,7 @@ body {
 }
 
 .side-decal.right {
-  right: -8px; /* Move outside the right border */
+  right: -8px;
   left: auto;
   transform: scaleX(-1) translateX(40px);
   mask-image: linear-gradient(to left, transparent 0%, black 30%, black 100%);
@@ -34,7 +34,7 @@ body {
 }
 
 .side-decal.left {
-  left: -8px; /* Move outside the left border */
+  left: -8px;
   right: auto;
   transform: translateX(-40px);
   mask-image: linear-gradient(to right, black 70%, transparent 100%);
